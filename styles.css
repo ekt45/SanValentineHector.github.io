@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #CA210E;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    
+}
+.titulo-con-imagen {
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Centra horizontalmente el contenedor */
+}
+
+.titulo-con-imagen img {
+    width: 50px; /* Ajusta el tamaño de la imagen según sea necesario */
+    margin-right: 10px; /* Espacio entre la imagen y el texto */
+}
+
+h1 {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.menu {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+    margin-top: 20px; /* Ajuste del margen superior */
+}
+
+.menu li {
+    margin: 0 15px; /* Ajuste del margen horizontal entre elementos */
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #555; /* Color de fondo para añadir colorido */
+    padding: 10px 20px; /* Ajuste del padding */
+    border-radius: 5px;
+    font-size: 18px; /* Ajuste del tamaño de fuente */
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 50px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-top: 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.titulo{
+    
+    font-size: 70px;
+}
